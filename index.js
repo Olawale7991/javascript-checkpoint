@@ -34,10 +34,11 @@ console.log(sum);
 // console.log(sum);
 
 // Original array with mixed types
-const nums = [1, 'two', 3, 'four', 5, 'six', 7, true, null, 8, undefined, '9'];
+const mixedArray = [1, 'two', 3, 'four', 5, 'six', 7, true, null, 8, undefined, '9'];
 
 function isNumber(element) {
   return typeof element === 'number';
 }
-const result = num.filter(isNumber);
-console.log(result);
+const numbersArray = mixedArray.filter(isNumber);
+
+console.log(numbersArray); 
